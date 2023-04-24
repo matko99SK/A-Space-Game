@@ -44,7 +44,7 @@ for i, e in enumerate(main_menu.buttons):
 def start_game():
     menu_parent.enabled = True
     music.stop()
-    os.startfile('C:/Users/Maťko/Documents/Python/UrsinaEngine/game.py')
+    os.startfile('location/gamefoldername/game.py')
 
 # load menu content
 for i in range(1):
